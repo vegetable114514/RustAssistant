@@ -1,0 +1,12 @@
+# RustAssistant 依赖项
+# 用于与LLM API交互
+requests>=2.31.0
+
+# 用于更高级的命令行处理（可选）
+click>=8.1.3
+
+# 用于处理JSON数据（Python标准库已包含，但这里标记为依赖以防需要特殊版本）
+json
+
+# 用于更高级的错误处理和日志记录（可选）
+python-dotenv>=1.0.0  # 用于从.env文件加载API密钥
